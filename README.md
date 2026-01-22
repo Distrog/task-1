@@ -1,4 +1,5 @@
-<img width="1536" height="766" alt="Задание52" src="https://github.com/user-attachments/assets/579f683b-9345-4e1b-9429-a55de06a6fad" /># task-1
+# task-1
+
 Задача 1
 
 https://hub.docker.com/repository/docker/distrog/custom-nginx/general
@@ -8,6 +9,8 @@ https://hub.docker.com/repository/docker/distrog/custom-nginx/general
 <img width="1536" height="760" alt="задание2" src="https://github.com/user-attachments/assets/316d2242-4706-4f9b-8308-189ac0ede34f" />
 
 Задача 3
+
+контейнер остановилспотому что при нажатии Ctrl-C отправляется сигнал га прерывание основного процесса внутри контейнера, после чего Nginx останавливает все свои рабочие процессы и завершается.
 
 <img width="1536" height="885" alt="задание31" src="https://github.com/user-attachments/assets/036b2217-0645-4da4-9c28-492b10e80a99" />
 <img width="1536" height="890" alt="задание32" src="https://github.com/user-attachments/assets/ac85b483-0147-4530-92e7-8bc444169397" />
@@ -19,6 +22,8 @@ https://hub.docker.com/repository/docker/distrog/custom-nginx/general
 <img width="1536" height="804" alt="задание4" src="https://github.com/user-attachments/assets/92192e6e-d8e4-4352-8664-bb75d47497aa" />
 
 Задача 5
+
+был запущен docker-compose.yaml, потому то при команде docker compose up без флага -f запускается файл со стандартизированным именем (docker-compose.yml, docker-compose.yaml)
 
 <img width="1536" height="766" alt="Задание5" src="https://github.com/user-attachments/assets/04c02342-f40a-4c85-9c64-7bf81be44889" />
 <img width="1536" height="798" alt="Задание51" src="https://github.com/user-attachments/assets/6641549d-4d14-48ed-905b-453a429f99dd" />
